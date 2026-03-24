@@ -9,7 +9,7 @@ export const addUser = async (req, res) => {
                 message: "required data not found"
             });
         
-        const newUser = new User.create({
+        const newUser = await User.create({
             name, age
         });
 
