@@ -2,7 +2,7 @@ import express from "express"
 import dotenv from "dotenv"
 import route from "./route.js";
 import { connectDB } from "./connectDB.js";
-import serverlessExpress from "@vendia/serverless-express"
+import serverlessExpress from '@vendia/serverless-express'
 dotenv.config();
 const PORT = process.env.PORT;
 
